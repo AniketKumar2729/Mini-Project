@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
+*,*::after,*::before{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+#clock-Container{
+    /* border: 10px solid darkorange; */
+    background-color: #37306B;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#clockContainer{  
+    /* border: 2px solid darkred; */
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw; 
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+}.date{
+    display: flex;
+    /* border: 5px solid darkblue; */
+    gap: .5vmin;
+    width: 25vmin;
+    height: 3vmax;
+    position: absolute;
+    top: 37vmin;
+    left: 22vmax;
+}
+#date,#month,#year{
+    /* border: 2px solid lightseagreen; */
+    border-right:2px solid black ;
+    width:5vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-family: 'Shantell Sans', cursive;
+}
+#year{
+    font-size: 1.8rem;
+}
+#hour, #minute, #second{
+    position: absolute;
+    border-radius: 10px; 
+    transform-origin: bottom;
+}
+#hour{
+    background-color: #66347F;
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;  
+}
+#minute{
+    background-color: #9E4784;
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;  
+}
+#second{
+    background-color: #D27685;
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8; 
+    
+}
