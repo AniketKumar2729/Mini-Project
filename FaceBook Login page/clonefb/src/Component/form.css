@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-sm {
+  height: 21vmax;
+  width: 26vmax;
+  box-shadow: 0.5px 0.5px 5px grey;
+}
+#pass-word {
+  text-decoration: none;
+  font-weight: 600;
+}
+#btn1 {
+  font-weight: bold;
+}
+#pass-forget {
+  margin-left: 5em;
+}
+#line {
+  border: 0.001px solid grey;
+  /* width: 20rem; */
+  /* height: 1px; */
+  margin: 10px 0 25px;
+}
+#moto {
+  text-align: center;
+  width: 20rem;
+}
+#moto > span {
+  font-weight: bold;
+}

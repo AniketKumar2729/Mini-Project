@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  height: 120vh;
+  width: 100vw; background-color: #f0f2f5;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#introLine {
+  /* border: 2px solid darkturquoise; */
+  width: 23rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  position: relative;
+  top: 9rem;
+  left: 8rem;
+  color: #1877f2;
+}
+#intro {
+  /* border: 2px solid darkviolet; */
+  display: inline-flex;
+  justify-content: center;
+  padding-top: 10px;
+  position: absolute;
+  top: 15rem;
+  right: 54.5rem;
+  font-size: 1.04rem;
+  width: 32rem;
+}
+#formCard {
+  /* border: 4px solid lightseagreen; */
+  width: 27vw;
+  height: 42.5vmax;
+  position: relative;
+  top: -4rem;
+  left: 53rem;
+  transform: translate(0%,0%);
+}
+#container {
+  /* border: 2px solid darkorchid; */
+  width: 22rem;
+  height: 40rem;
+  display: inline-block;
+  position: absolute;
+  top: -20rem;
+  left: -10.5rem;
+  transform: translate(50%, 50%);
+}
+#container > h1 {
+  font-size: 2rem;
+}
+#container > p {
+  color: grey;
+}
+#line {
+  border: 0.1px solid grey;
+}
+#namegrp {
+  gap: 1rem;
+}
+#namegrp > input {
+  border-radius: 5px;
+}
+.gentyp {
+  border: 2px solid grey;
+  border-radius: 2px;
+
+}
+.ending {
+  /* border: 2px solid darkgoldenrod; */
+  font-size: 10px;
+}
+.text-underline-hover {
+  text-decoration: none;
+}
+
+.text-underline-hover:hover {
+  text-decoration: underline;
+}
+.conts {
+  width: 24rem;
+  height: 30rem;
+  top: 1rem;
+  left: 0rem;
+}
+.cont{
+  background-color:#ffffff ;
+}
+footer {
+  /* border: 4px solid lightseagreen; */
+  background-color: #ffffff;
+  width: 99.05vw;
+  height: 25vh;
+  margin: 3rem 0rem;
+  position: absolute;
+  top: 30rem;
+  transform: translate(0%,100%);
+}
+.top {
+  height: 6vmin;
+}
+@media screen and (max-width:500px) {
+  #introLine{
+    border: 2px solid darkred;
+  }
+}
